@@ -123,6 +123,22 @@ input, select {
     z-index: -100;
 }
 
+.landing-page {
+    height: 100vh;
+}
+
+.landing-page--bg-white {
+    background: white;
+    color: black;
+    padding: 35px;
+}
+
+.landing-page--bg-gray {
+    background: gray;
+    color: black;
+    padding: 35px;
+}
+
 @media (min-aspect-ratio: 16/9) {
     .video-background {
         width: 100%;
@@ -147,6 +163,7 @@ input, select {
     margin: 0px;
     height: auto;
     width: 250px;
+    margin-top: -90px;
 }
 
 .menu {
@@ -181,11 +198,11 @@ input, select {
     text-align: center;
     font-family: sans-serif;
     color: White;
-    top: 300px;
+    top: 220px;
 }
 
 .msg h1 {
-    font-size: 70px;
+    font-size: 90px;
     margin: 25px;
 }
 
@@ -198,7 +215,9 @@ input, select {
     text-decoration: none;
     border: 1px solid white;
     border-radius: 25px;
+    margin-left: 199px;
 }
+
 
 .btn:hover {
     background: black;
