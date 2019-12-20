@@ -224,4 +224,185 @@ input, select {
     transition: .4s;
 }
 
+.container-last {
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 100px auto;
+}
 
+
+.container-last .loginbox {
+    position: relative;
+    top: 0px;
+    width: 320px;
+    height: 420px;
+    background: rgb(66, 208, 233);
+    top: 25%;
+    left: 35%;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 70px 30px;
+}
+
+h9 {
+    margin: 0;
+    padding: 0 50px 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+h10 {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: black;
+
+}
+
+h11 {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: black;
+}
+
+.loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+}
+
+
+.loginbox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: white;
+    color: black;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover {
+    cursor: pointer;
+    background: black;
+    color: white;
+}
+
+.loginbox a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: black;
+}
+
+.loginbox a:hover {
+    color: white;
+}
+
+.container {
+    padding: 0 100px;
+    box-sizing: border-box;
+    font-family: 'Robot', sans-serif;
+}
+
+.material {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content h2 {
+    margin-top: 200px;
+    color: black;
+    font-size: 3rem;
+}
+
+.content p {
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    max-width: 500px;
+    font-size: 1.2rem;
+}
+
+.content a {
+    background-color: rgb(66, 208, 233);
+    color: black;
+    font-size: 1.3rem;
+    padding: 10px 35px;
+    text-decoration: none;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.wrapper-1 {
+    overflow: hidden;
+}
+
+.features {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.features-group-2 {
+    margin-left: 40px;
+    margin-top: 50px;
+    padding-bottom: 40px;
+}
+
+.feature-1,
+.feature-2,
+.feature-3,
+.feature-4 {
+    max-width: 250px;
+    box-shadow: 0 .2rem 3rem black;
+    padding: 20px;
+    background-color: white;
+}
+
+.feature-2 {
+    margin-top: 20px;
+}
+
+.feature-4 {
+    margin-top: 20px;
+}
+
+.features img {
+    width: 140px;
+    filter: drop-shadow(0 .1rem .2rem rgba(0,0,0,.35));
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: tanslateX(-50%);
+}
+
+.features h3 {
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 15px 0 15px 0;
+    color: black;
+}
+
+.features p {
+    font-size: .8rem;
+    text-align: center;
+    color: black;
+    line-height: 1.5;
+}
