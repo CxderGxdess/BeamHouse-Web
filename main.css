@@ -135,8 +135,11 @@ input, select {
 
 .landing-page--bg-gray {
     background: gray;
-    color: black;
+    color: white;
     padding: 35px;
+    background: url(https://images.pexels.com/photos/671629/pexels-photo-671629.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) no-repeat;
+    background-size: cover;
+
 }
 
 @media (min-aspect-ratio: 16/9) {
@@ -237,7 +240,7 @@ input, select {
     top: 0px;
     width: 320px;
     height: 420px;
-    background: rgb(66, 208, 233);
+    background: rgb(192, 100, 172);
     top: 25%;
     left: 35%;
     margin: 15px;
@@ -248,10 +251,12 @@ input, select {
 }
 
 h9 {
-    margin: 0;
+    margin: -50px;
+    margin-bottom: 20px;
     padding: 0 50px 20px;
-    text-align: center;
-    font-size: 22px;
+    text-align: left;
+    font-size: 29px;
+    font-family: 'Merienda', cursive;
 }
 
 h10 {
@@ -339,7 +344,7 @@ h11 {
 }
 
 .content a {
-    background-color: rgb(66, 208, 233);
+    background-color: rgb(192, 86, 166);
     color: black;
     font-size: 1.3rem;
     padding: 10px 35px;
